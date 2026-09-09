@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+  background-color: #fdfaf9;
+}
+
+
+.app-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.app-page {
+  flex: 1;
+  padding: 30px 5%;
+}

@@ -1,0 +1,131 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+.logo {
+  width: 150px;
+}
+
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  color: #49557e;
+  font-size: 18px;
+}
+
+.navbar-menu a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  padding-bottom: 2px;
+}
+
+.navbar-menu a.active {
+  border-bottom: 2px solid #49557e;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navbar-right img {
+  width: 22px;
+  cursor: pointer;
+}
+
+.navbar-right button {
+  background: transparent;
+  font-size: 16px;
+  color: #ff4c24;
+  border: 1px solid tomato;
+  padding: 10px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.navbar-right button:hover {
+  background-color: #fff4f2;
+}
+
+.navbar-basket-icon {
+  position: relative;
+}
+
+.navbar-basket-icon .dot {
+  position: absolute;
+  min-width: 8px;
+  min-height: 8px;
+  background-color: tomato;
+  border-radius: 5px;
+  top: -8px;
+  right: -8px;
+}
+
+.navbar-profile {
+  position: relative;
+  cursor: pointer;
+}
+
+.navbar-profile img {
+  width: 32px;
+}
+
+.navbar-profile-dropdown {
+  position: absolute;
+  display: none;
+  right: 0;
+  top: 100%;
+  z-index: 1;
+  list-style: none;
+  background-color: #fff2ef;
+  border-radius: 4px;
+  border: 1px solid tomato;
+  padding: 12px 25px;
+}
+
+.navbar-profile:hover .navbar-profile-dropdown {
+  display: block;
+}
+
+.navbar-profile-dropdown li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 4px 0px;
+}
+
+.navbar-profile-dropdown img {
+  width: 20px;
+}
+
+.navbar-profile-dropdown li:hover {
+  color: tomato;
+}
+
+.navbar {
+  flex-wrap: wrap;
+}
+
+.navbar-search-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px 5px;
+}
+
+.navbar-search-bar input {
+  width: min(400px, 80%);
+  padding: 10px 15px;
+  border: 1px solid #c9c9c9;
+  border-radius: 30px;
+  outline-color: tomato;
+  font-size: 14px;
+}

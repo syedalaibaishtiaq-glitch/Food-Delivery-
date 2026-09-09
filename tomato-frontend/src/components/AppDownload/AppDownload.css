@@ -1,0 +1,27 @@
+.app-download {
+  margin: 100px auto;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 0px 10%;
+}
+
+.app-download p {
+  font-size: max(4vw, 20px);
+  font-weight: 600;
+  text-align: center;
+  color: #262626;
+}
+
+.app-download-platforms {
+  display: flex;
+  gap: 20px;
+}
+
+.app-download-platforms img {
+  width: 180px;
+  cursor: pointer;
+}

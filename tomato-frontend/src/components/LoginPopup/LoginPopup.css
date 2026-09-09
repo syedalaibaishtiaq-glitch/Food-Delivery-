@@ -1,0 +1,134 @@
+.login-popup {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000090;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-popup-container {
+  place-self: center;
+  width: max(23vw, 330px);
+  color: #808080;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 25px 30px;
+  border-radius: 8px;
+  font-size: 14px;
+  animation: fadeIn 0.5s;
+}
+
+.login-popup-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #454545;
+}
+
+.login-popup-title img {
+  width: 16px;
+  cursor: pointer;
+}
+
+.login-popup-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login-popup-inputs input {
+  outline: none;
+  border: 1px solid #c9c9c9;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.login-popup-container button {
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  background-color: tomato;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.login-popup-condition {
+  display: flex;
+  align-items: start;
+  gap: 8px;
+  margin-top: -15px;
+}
+
+.login-popup-condition input {
+  margin-top: 5px;
+}
+
+.login-popup-container p span {
+  color: tomato;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.login-popup-error {
+  color: tomato;
+  font-size: 13px;
+  margin-top: -15px;
+}
+
+.login-popup-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #999;
+  font-size: 13px;
+}
+
+.login-popup-divider::before,
+.login-popup-divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.login-popup-divider span {
+  padding: 0px 10px;
+}
+
+.google-login-btn {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #c9c9c9;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #454545;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.google-login-btn:hover {
+  background-color: #fafafa;
+}
+
+.login-popup-container {
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+}
+
+.login-popup-container button {
+  background: linear-gradient(90deg, #ff6347, #ff8c69);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.login-popup-container button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(255, 99, 71, 0.3);
+}

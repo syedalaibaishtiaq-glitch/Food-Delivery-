@@ -1,0 +1,136 @@
+/* .my-orders {
+  margin: 100px 0px;
+}
+
+.my-orders h2 {
+  margin-bottom: 30px;
+}
+
+.my-orders-order {
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.my-orders-order-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.my-orders-order-number {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.my-orders-order-date {
+  font-size: 13px;
+  color: #999;
+  margin-top: 2px;
+}
+
+.my-orders-order-amount {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.my-orders-order-items {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.my-orders-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #454545;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: tomato;
+} */
+
+
+.my-orders {
+  margin: 100px 0px;
+}
+
+.my-orders h2 {
+  margin-bottom: 30px;
+  font-size: 26px;
+}
+
+.my-orders-order {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 22px 25px;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+  transition: box-shadow 0.2s;
+}
+
+.my-orders-order:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.my-orders-order-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.my-orders-order-number {
+  font-weight: 600;
+  font-size: 15px;
+  color: #2b2b2b;
+}
+
+.my-orders-order-date {
+  font-size: 13px;
+  color: #999;
+  margin-top: 3px;
+}
+
+.my-orders-order-amount {
+  font-weight: 700;
+  font-size: 18px;
+  color: tomato;
+}
+
+.my-orders-order-items {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: tomato;
+  box-shadow: 0 0 0 3px #ffe4de;
+}
+
+.my-orders-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #d84a30;
+  background-color: #fff5f3;
+  padding: 7px 16px;
+  border-radius: 20px;
+  border: 1px solid #ffd9d0;
+}

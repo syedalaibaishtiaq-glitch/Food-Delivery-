@@ -1,0 +1,33 @@
+.sidebar {
+  width: 220px;
+  min-height: calc(100vh - 70px);
+  border-right: 1px solid #e2e2e2;
+  padding-top: 30px;
+}
+
+.sidebar-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-option {
+  display: flex;
+  align-items: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  color: #454545;
+  font-size: 15px;
+  border-left: 3px solid transparent;
+  transition: 0.2s;
+}
+
+.sidebar-option:hover {
+  background-color: #fafafa;
+}
+
+.sidebar-option.active {
+  color: tomato;
+  border-left: 3px solid tomato;
+  background-color: #fff5f3;
+  font-weight: 500;
+}

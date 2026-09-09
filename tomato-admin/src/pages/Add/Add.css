@@ -1,0 +1,82 @@
+.add {
+  min-height: 100vh;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-img-upload {
+  width: max-content;
+}
+
+.upload-preview {
+  width: 130px;
+  height: 130px;
+  border-radius: 10px;
+  border: 2px dashed #ffb3a3;
+  cursor: pointer;
+  object-fit: cover;
+  background-color: #fff8f7;
+  transition: border-color 0.2s;
+}
+
+.upload-preview:hover {
+  border-color: tomato;
+}
+
+.add-product-name p,
+.add-product-description p,
+.add-category p,
+.add-price p {
+  font-weight: 600;
+  color: #454545;
+  font-size: 14px;
+}
+
+.add-product-name input,
+.add-product-description textarea,
+.add-category select,
+.add-price input {
+  max-width: 500px;
+  padding: 11px 14px;
+  border: 1px solid #e2d5d2;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+.add-product-name input:focus,
+.add-product-description textarea:focus,
+.add-category select:focus,
+.add-price input:focus {
+  border-color: tomato;
+}
+
+.add-category-price {
+  display: flex;
+  gap: 30px;
+  margin: 15px 0px;
+}
+
+.add-btn {
+  max-width: 140px;
+  border: none;
+  padding: 13px 0px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #ff6347, #ff8c69);
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.add-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(255, 99, 71, 0.3);
+}
