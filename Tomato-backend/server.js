@@ -22,7 +22,15 @@ app.use(passport.initialize())
 app.use("/images", express.static("uploads"))
 
 // db connection
-connectDB()
+let dbConnected = false;
+app.use(async (req, res, next) => {
+  if (!dbConnected) {
+    await connectDB();
+    dbConnected = true;
+  }
+  next();
+});
+
 
 // api endpoints
 app.use("/api/food", foodRouter)
